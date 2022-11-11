@@ -25,5 +25,7 @@ public class StoreService {
     return storeRepository.findAll();
   }
 
-
+  public Store findOne(String id){
+    return storeRepository.findOne(id);
+  }
 }
